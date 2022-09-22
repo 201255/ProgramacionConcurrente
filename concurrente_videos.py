@@ -24,7 +24,7 @@ def save_video(video,destino):
 
 if __name__ == "__main__":
     init_time = time.time()
-    destino = ["C:/Users/USER/Desktop/9 Cuatrimestre/Programacion Concurrente/1 Corte/Example 1/Videos"]
+    destino = ["C:/Users/ADMIN/Desktop/ProgramacionConcurrente/videos"]
     service(destino)
     end_time = time.time()-init_time
     print(end_time)
