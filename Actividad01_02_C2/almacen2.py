@@ -28,7 +28,7 @@ class Consumidor(Thread):
         while True:
             if not bodega.empty():
                 array2 = bodega.get()
-                print('El consumidor agarro el producto: '+str(array2))
+                print('El Consumidor agarro el producto: '+str(array2))
                 time.sleep(5)
 
 def main():
